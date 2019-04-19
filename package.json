@@ -1,0 +1,18 @@
+{
+  "name": "express-class",
+  "version": "0.0.1",
+  "description": "This is our first express class",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-validator": "^5.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "opeyemi oyekunle <opyzyle1960@gmail.com>",
+  "license": "ISC"
+}

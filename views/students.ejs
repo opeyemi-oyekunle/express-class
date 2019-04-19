@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+     <meta charset="utf-8">
+     <title><%= title %></title>
+   </head>
+   <body>
+     <p><%= success %></p>
+     <table>
+       <tr>
+         <th>Name</th>
+         <th>Age</th>
+         <th>Score</th>
+      </tr>
+       <% students.map((student)=>{ %>
+         <tr>
+           <td>Name: <%=student.name%></td>
+           <td>Age: <%=student.age%></td>
+           <td>Score: <%=student.score%></td>
+        </tr>
+       <%})%>
+    </table>
+  </body>
+</html>
