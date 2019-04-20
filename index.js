@@ -80,7 +80,7 @@ app.get('*', (req, res)=>{
  res.send('Error: Page not found');
 });
 
-const port = 5000
-var server = app.listen(port, ()=> {
- console.log(`The server is on port ${port}`);
+const PORT = process.env.PORT || 5000
+var server = app.listen(PORT, ()=> {
+ console.log(`The server is on port ${PORT}`);
 });
